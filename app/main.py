@@ -1,1 +1,10 @@
-# TODO: Agrega el código necesario para que la aplicación pueda ser ejecutada. Borra este comentario al terminar.
+from app.console import Console
+
+def main():
+    console = Console()
+    console.main_menu()
+
+if __name__ == '__main__':
+    main()
+
+
